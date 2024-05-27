@@ -1,2 +1,2 @@
-*Informações Importantes*
+<b>*Informações Importantes*</b>
 <hr>
