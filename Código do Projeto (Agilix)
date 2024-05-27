@@ -1,0 +1,142 @@
+import pandas as pd
+from openpyxl import load_workbook
+import os
+import io
+from cryptography.fernet import Fernet
+import time
+
+# Gerar chave de criptografia
+chave = Fernet.generate_key()
+cifragem = Fernet(chave)
+
+# Realização da filtragem
+def filtragem(leitura_DSR, grafico):
+    filtroAcesso = (leitura_DSR['Tipo'] == "Acesso")
+    filtroEliminacao = (leitura_DSR['Tipo'] == "Eliminacao")
+    filtroOposicao = (leitura_DSR['Tipo'] == "Oposicao")
+    filtroRetificacao = (leitura_DSR['Tipo'] == "Retificacao")
+
+    qtdLinhasAcesso = leitura_DSR[filtroAcesso]
+    qtdLinhasEliminacao = leitura_DSR[filtroEliminacao]
+    qtdLinhasOposicao = leitura_DSR[filtroOposicao]
+    qtdLinhasRetificacao = leitura_DSR[filtroRetificacao]
+
+    qtdAcesso = len(qtdLinhasAcesso)
+    qtdEliminacao = len(qtdLinhasEliminacao)
+    qtdOposicao = len(qtdLinhasOposicao)
+    qtdRetificacao = len(qtdLinhasRetificacao)
+
+    totalDSR = qtdAcesso + qtdEliminacao + qtdOposicao + qtdRetificacao
+
+    wb = load_workbook(grafico)
+    ws = wb.active
+
+    ws['C11'] = totalDSR
+    ws['B20'] = 'Acesso'
+    ws['C20'] = qtdAcesso
+    ws['B21'] = 'Eliminação'
+    ws['C21'] = qtdEliminacao
+    ws['B22'] = 'Oposição'
+    ws['C22'] = qtdOposicao
+    ws['B23'] = 'Retificação'
+    ws['C23'] = qtdRetificacao
+
+    print("--------------- DSRs ---------------")
+    print("Total de DSRs: ", totalDSR)
+    print("Acesso: ", qtdAcesso)
+    print("Eliminação: ", qtdEliminacao)
+    print("Oposição: ", qtdOposicao)
+    print("Retificação: ", qtdRetificacao)
+
+    wb.save(grafico)
+
+def descriptografar_AES (arquivo_DSR):
+    # Ler os dados criptografados do arquivo
+    with open("chave.bin", 'rb') as f:
+        chave = f.read()
+    cifra_lida = Fernet(chave)
+    with open(arquivo_DSR, 'rb') as f:
+        dados_criptografados = f.read()
+    
+    # Descriptografar os dados
+    dados_descriptografados = cifra_lida.decrypt(dados_criptografados)
+
+    # Converter os dados descriptografados de bytes para DataFrame do Pandas
+    df_descriptografado = pd.read_csv(io.BytesIO(dados_descriptografados))
+
+    # Enviar os valores descriptografados para o arquivo_DSR            
+    df_descriptografado.to_csv(arquivo_DSR, index=False)
+
+    print ("Arquivo descriptografado com sucesso!!!")
+
+def criptografar_AES (arquivo_DSR, cifragem, chave):
+    # Ler o arquivo CSV
+    leitura_DSR = pd.read_csv(arquivo_DSR)
+
+    # Criptografar os dados do arquivo CSV
+    criptografar = cifragem.encrypt(leitura_DSR.to_csv(index=False).encode())
+
+    # Escrever os dados criptografados no mesmo arquivo
+    with open(arquivo_DSR, 'wb') as f:
+        f.write(criptografar)
+    with open("chave.bin", 'wb') as chave_file:
+        chave = chave_file.write(chave)
+    print ("Arquivo Criptografado com sucesso !!!")
+os.system("cls")
+
+print("""
+ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     
+ .  ________    ________   __   __        __   __     __   .
+ . |   __   |  /  ______| |  | |  |      |  |  \  \  /  /  .
+ . |  |__|  | |  |   ___  |  | |  |      |  |   \  \/  /   .
+ . |   __   | |  |  |_  \ |  | |  |      |  |    |    |    . 
+ . |  |  |  | |  |____| | |  | |  |____  |  |   /  /\  \   .
+ . |__|  |__|  \________/ |__| |_______| |__|  /__/  \__\  .
+ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     
+""")
+
+print ("------------------------------------------------------------\n                        SEJA BEM VINDO  \n------------------------------------------------------------")
+time.sleep(1)
+
+caminho = input("Informe o caminho para o diretório que contém os arquivos para o relatório: ")
+os.chdir(caminho)
+print("\nDiretório atual: ", os.getcwd())
+
+arquivo_DSR = input("\nInforme o nome do arquivo DSR (Exemplo: arquivo.csv): ")
+
+os.system("cls")
+
+while True:
+    os.system("cls")
+    print ("-----------\nOpções\n-----------\n1- Filtrar arquivo CSV\n2- Filtrar e Criptografar o arquivo CSV\n3- Criptografar o arquivo CSV\n4- Descriptografar o arquivo CSV\n5- Sair do Programa")
+    resposta = int(input("Escolha uma alternativa: "))
+    if resposta == 1: 
+        os.system("cls")
+        grafico = input("\nInforme o nome do arquivo para onde os valores serão enviados (Exemplo: arquivo.xlsx): ")
+        leitura_DSR = pd.read_csv(arquivo_DSR, encoding="latin-1", sep=';')
+        filtragem(leitura_DSR, grafico)
+        time.sleep(5)       
+    elif resposta == 2:
+        os.system("cls")
+        grafico = input("\nInforme o nome do arquivo para onde os valores serão enviados (Exemplo: arquivo.xlsx): ")
+        leitura_DSR = pd.read_csv(arquivo_DSR, encoding="latin-1", sep=';')
+        filtragem(leitura_DSR, grafico) 
+        criptografar_AES (arquivo_DSR, cifragem, chave)
+        time.sleep(5)
+    elif resposta == 3:
+        os.system("cls")
+        criptografar_AES (arquivo_DSR, cifragem, chave)
+        time.sleep(5)
+    elif resposta == 4:
+        os.system("cls")
+        descriptografar_AES (arquivo_DSR)
+        time.sleep(5)
+    elif resposta == 5:
+        os.system("cls")
+        print ("Programa finalizado!!!")
+        time.sleep(5)
+        break
+    else:
+        os.system("cls")
+        print ("Valor inválido!!!")
+        time.sleep(2) 
