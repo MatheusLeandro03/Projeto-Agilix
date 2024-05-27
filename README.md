@@ -6,7 +6,7 @@ Para que o código execute de forma correta, além de seguir as informações fo
   <p>a) pip install pandas</p>
   <p>b) pip install cryptography</p>
   <p>c) pip install openpyxl</p>
-<p>3- Baixe todos os arquivos disponibilizados neste repositório para funcionamento do projeto (O exemplo de Relatório é opcional, pois serve somente para exemplo)</p>
+<p>3- Baixe todos os arquivos disponibilizados neste repositório para funcionamento do projeto (O exemplo de Relatório é opcional, pois serve somente para exemplo);</p>
 <p>4- Deixar os arquivos todos em um mesmo diretório para que possa ser informado no programa;</p>
 <p>O código foi testado especificamente para sistemas operacionais Windows, funcionando de acordo com o seu propósito.
 Qualquer dúvida entrar em contato.</p>
