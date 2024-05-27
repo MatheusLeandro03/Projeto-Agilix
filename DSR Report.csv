@@ -1,0 +1,87 @@
+ID;Nome;Tipo;Progresso;Data de Criacao;Prazo;Data de Conclusao;CPF;E-mail;Data de Nascimento
+101500;Maria Severina;Acesso;Completa;01/04/2024;16/04/2024;07/04/2024;17800904;mseverina@gmail.com;09/01/2000
+101501;Elaine De Melo;Eliminacao;Completa;01/04/2024;16/04/2024;07/04/2024;17800914;elainem02@gmail.com;03/08/2002
+101502;Diego Dos Santos;Retificacao;Completa;01/04/2024;16/04/2024;07/04/2024;17800915;dsantos@gmail.com;19/04/1996
+101503;Arthur Dias;Oposicao;Completa;01/04/2024;16/04/2024;07/04/2024;17800922;arthurdias90@gmail.com;02/12/1990
+101504;Debora Lohane;Eliminacao;Completa;02/04/2024;17/04/2024;07/04/2024;17800928;dlohane21@gmail.com;21/07/1995
+101505;Everton Souza;Retificacao;Completa;02/04/2024;17/04/2024;08/04/2024;17800933;99evertonssouza@gmail.com;22/08/1999
+101506;Ze Rafael ;Retificacao;Completa;02/04/2024;17/04/2024;09/04/2024;17800939;zerafael@gmail.com;09/02/1993
+101507;Matheus Leandro;Acesso;Completa;02/04/2024;17/04/2024;09/04/2024;17800944;mleandro@gmail.com;12/08/2001
+101508;Marcelo Davis;Retificacao;Completa;02/04/2024;17/04/2024;09/04/2024;17800950;davismarcelo@gmail.com;19/04/1996
+101509;Deivid De Paula;Oposicao;Completa;02/04/2024;17/04/2024;09/04/2024;17800955;deividepaula@gmail.com;29/02/1989
+101510;Milena De Vasconcelos;Acesso;Completa;02/04/2024;17/04/2024;10/04/2024;17800961;vascmilena@gmail.com;14/10/2003
+101511;Gabriel Pereira;Retificacao;Completa;02/04/2024;17/04/2024;11/04/2024;17800966;pereiragbiel@gmail.com;12/11/2005
+101512;Giovana Castanho;Acesso;Completa;03/04/2024;18/04/2024;12/04/2024;17800972;gicastanho@gmail.com;13/12/1992
+101513;Jessica Figueiredo;Acesso;Completa;03/04/2024;18/04/2024;13/04/2024;17800977;jefigueiredo@gmail.com;02/02/2002
+101514;Marcos De Paula;Retificacao;Completa;03/04/2024;18/04/2024;14/04/2024;17800983;depaula@gmail.com;09/01/2000
+101515;Murilo De Cezar;Oposicao;Completa;03/04/2024;18/04/2024;14/04/2024;17800988;mudecezar@gmail.com;03/12/1998
+101516;Marcos Dalcin;Acesso;Completa;04/04/2024;19/04/2024;14/04/2024;17800994;mdalcin@gmail.com;02/11/2001
+101517;Joao Lira;Retificacao;Completa;04/04/2024;19/04/2024;14/04/2024;17800999;j12lira@gmail.com;12/08/2001
+101518;Pedro Moscardo;Eliminacao;Completa;04/04/2024;19/04/2024;14/04/2024;17801005;pmoscardo@gmail.com;14/05/1998
+101519;Isabela Santos;Acesso;Completa;04/04/2024;19/04/2024;14/04/2024;17801010;isasantos@gmail.com;02/02/2002
+101520;Lucas Pereira;Retificacao;Completa;04/04/2024;19/04/2024;14/04/2024;17801016;lpereira@gmail.com;13/07/2003
+101521;Paulo Augusto;Acesso;Completa;04/04/2024;19/04/2024;14/04/2024;17801021;paugusto@gmail.com;01/01/1994
+101522;Francisco Melo;Oposicao;Completa;04/04/2024;19/04/2024;14/04/2024;17801027;fchicomelo@gmail.com;09/01/2000
+101523;Tiago Alberto;Acesso;Completa;04/04/2024;19/04/2024;14/04/2024;17801032;tialberto@gmail.com;06/06/2005
+101524;Sofia Silva;Acesso;Completa;04/04/2024;19/04/2024;14/04/2024;17801038;sofisilva@gmail.com;01/01/1994
+101525;Gabriel Oliveira;Oposicao;Completa;05/04/2024;20/04/2024;14/04/2024;17801043;goliveira@gmail.com;01/01/2006
+101526;Julia Costa;Oposicao;Completa;06/04/2024;21/04/2024;14/04/2024;17801049;jucosta@gmail.com;02/12/1990
+101527;Mateus Rodrigues;Eliminacao;Completa;07/04/2024;22/04/2024;14/04/2024;17801054;mateusrodri@gmail.com;23/07/1997
+101528;Laura Almeida;Acesso;Completa;07/04/2024;22/04/2024;15/04/2024;17801060;lalmeida@gmail.com;28/07/2000
+101529;Pedro Ferreira;Acesso;Completa;07/04/2024;22/04/2024;15/04/2024;17801065;pedroferreira@gmail.com;19/04/1996
+101530;Maria Lima;Retificacao;Completa;08/04/2024;23/04/2024;15/04/2024;17801071;marialima@gmail.com;12/12/2002
+101531;Leonardo Carvalho;Acesso;Completa;08/04/2024;23/04/2024;15/04/2024;17801076;leocarvalho@gmail.com;09/11/1995
+101532;Giovanna Souza;Eliminacao;Completa;08/04/2024;23/04/2024;15/04/2024;17801082;gisouza@gmail.com;12/08/2001
+101533;Guilherme Martins;Acesso;Completa;08/04/2024;23/04/2024;15/04/2024;17801087;guimartins@gmail.com;05/08/2005
+101534;Ana Paula;Oposicao;Completa;08/04/2024;23/04/2024;15/04/2024;17801093;anapaula@gmail.com;12/11/1996
+101535;Rafael Barbosa;Acesso;Completa;08/04/2024;23/04/2024;16/04/2024;17801098;rafabarbosa@gmail.com;02/12/1990
+101536;Manuela Castro;Acesso;Completa;09/04/2024;24/04/2024;17/04/2024;17801104;manucastro@gmail.com;05/12/2001
+101537;Enzo Nunes;Oposicao;Completa;09/04/2024;24/04/2024;18/04/2024;17801109;enzonunes@gmail.com;05/03/2000
+101538;Marina Ribeiro;Retificacao;Completa;09/04/2024;24/04/2024;19/04/2024;17801115;mariribeiro@gmail.com;12/08/2001
+101539;Gustavo Rocha;Oposicao;Completa;09/04/2024;24/04/2024;19/04/2024;17801120;gusrocha@gmail.com;17/02/1999
+101540;Carolina Fernandes;Eliminacao;Completa;10/04/2024;25/04/2024;19/04/2024;17801126;carolfernandes@gmail.com;20/02/2000
+101541;Joao Oliveira;Acesso;Completa;10/04/2024;25/04/2024;19/04/2024;17801131;joliveira@gmail.com;14/04/1994
+101542;Mariana Cardoso;Oposicao;Completa;10/04/2024;25/04/2024;19/04/2024;17801137;maricardoso@gmail.com;09/01/2000
+101543;Matheus Duarte;Retificacao;Completa;10/04/2024;25/04/2024;19/04/2024;17801142;matheusduarte@gmail.com;14/02/1997
+101544;Bianca Oliveira;Oposicao;Completa;10/04/2024;25/04/2024;19/04/2024;17801148;bioliveira@gmail.com;14/10/2003
+101545;Thiago Mendes;Acesso;Completa;11/04/2024;26/04/2024;19/04/2024;17801153;thimendes@gmail.com;05/06/1990
+101546;Luiza Gomes;Oposicao;Completa;12/04/2024;27/04/2024;19/04/2024;17801159;lugomes@gmail.com;23/08/1994
+101547;Felipe Campos ;Retificacao;Completa;13/04/2024;28/04/2024;19/04/2024;17801164;fcampos@gmail.com;19/04/1996
+101548;Larissa Miranda;Oposicao;Completa;13/04/2024;28/04/2024;19/04/2024;17801170;larimiranda@gmail.com;14/07/2003
+101549;Bruno Santos;Oposicao;Completa;14/04/2024;29/04/2024;20/04/2024;17801175;brusantos@gmail.com;16/08/1995
+101550;Alice Pereira;Acesso;Completa;15/04/2024;30/04/2024;21/04/2024;17801181;alicep@gmail.com;13/02/1999
+101551;Gabriel Costa;Eliminacao;Completa;16/04/2024;01/05/2024;22/04/2024;17801186;gabricosta@gmail.com;19/09/2000
+101552;Camila Rodrigues;Eliminacao;Completa;16/04/2024;01/05/2024;22/04/2024;17801192;camirodrigues@gmail.com;01/01/1994
+101553;Daniel Castro;Oposicao;Completa;16/04/2024;01/05/2024;22/04/2024;17801197;danicastro@gmail.com;26/09/1998
+101554;Fernanda Alves;Acesso;Completa;16/04/2024;01/05/2024;22/04/2024;17801203;falves@gmail.com;12/08/2001
+101555;Anderson Silva;Oposicao;Completa;17/04/2024;02/05/2024;22/04/2024;17801208;andsilva@gmail.com;19/09/2000
+101556;Isadora Santos;Acesso;Completa;18/04/2024;03/05/2024;22/04/2024;17801214;santosisadora@gmail.com;09/01/2000
+101557;Eduardo Vieira;Eliminacao;Completa;18/04/2024;03/05/2024;23/04/2024;17801219;eduvieira@gmail.com;16/10/1993
+101558;Larissa Lima;Oposicao;Completa;18/04/2024;03/05/2024;24/04/2024;17801225;larilima@gmail.com;19/09/2000
+101559;Vinicius Carvalho;Oposicao;Completa;18/04/2024;03/05/2024;25/04/2024;17801230;vinicarvalho@gmail.com;12/08/2001
+101560;Beatriz Fernandes;Acesso;Em andamento;19/04/2024;04/05/2024;;17801236;bfernandes@gmail.com;19/12/2004
+101561;Joao Pedro;Retificacao;Completa;20/04/2024;05/05/2024;25/04/2024;17801241;jpedro@gmail.com;01/01/1994
+101562;Amanda Martins;Oposicao;Completa;21/04/2024;06/05/2024;25/04/2024;17801247;amandamartins@gmail.com;02/11/1992
+101563;Lucas Oliveira;Eliminacao;Em andamento;21/04/2024;06/05/2024;;17801252;loliveira@gmail.com;12/08/2001
+101564;Leticia Costa;Retificacao;Completa;21/04/2024;06/05/2024;25/04/2024;17801258;lcosta@gmail.com;03/02/2003
+101565;Marcelo Ribeiro;Acesso;Completa;21/04/2024;06/05/2024;25/04/2024;17801263;marceribeiro@gmail.com;02/11/1992
+101566;Luana Mendes;Retificacao;Completa;21/04/2024;06/05/2024;25/04/2024;17801269;luanamendes@gmail.com;30/01/2001
+101567;Ricardo Sousa;Retificacao;Completa;21/04/2024;06/05/2024;25/04/2024;17801274;ricardosousa@gmail.com;12/08/2001
+101568;Clara Almeida;Acesso;Em andamento;21/04/2024;06/05/2024;;17801280;claraalme@gmail.com;31/12/1995
+101569;Matheus Pereira;Acesso;Completa;22/04/2024;07/05/2024;25/04/2024;17801285;matheusp@gmail.com;01/01/1994
+101570;Sofia Santos;Oposicao;Completa;23/04/2024;08/05/2024;25/04/2024;17801291;sofisantos@gmail.com;19/09/2000
+101571;Lucas Martins;Eliminacao;Completa;23/04/2024;08/05/2024;26/04/2024;17801296;lucasmartins@gmail.com;30/04/2000
+101572;Mariana Silva;Acesso;Em andamento;23/04/2024;08/05/2024;;17801302;marisilva@gmail.com;14/10/2003
+101573;Rafaela Oliveira;Eliminacao;Completa;23/04/2024;08/05/2024;28/04/2024;17801307;rafaoliveira@gmail.com;30/06/1997
+101574;Thiago Costa;Retificacao;Completa;23/04/2024;08/05/2024;28/04/2024;17801313;thicosta@gmail.com;31/12/1999
+101575;Isabela Rodrigues;Acesso;Completa;23/04/2024;08/05/2024;28/04/2024;17801318;isarodri@gmail.com;01/01/1994
+101576;Pedro Santos;Retificacao;Em andamento;23/04/2024;08/05/2024;;17801324;psantos@gmail.com;30/04/2000
+101577;Giovani Almeida;Acesso;Completa;24/04/2024;09/05/2024;28/04/2024;17801329;gialmeira@gmail.com;14/10/2003
+101578;Carolina Pereira;Oposicao;Completa;25/04/2024;10/05/2024;28/04/2024;17801335;carolp@gmail.com;07/11/2003
+101579;Jefferson Fernandes;Retificacao;Completa;26/04/2024;11/05/2024;29/04/2024;17801340;jfernandes@gmail.com;31/12/1995
+101580;Larissa Vieira;Eliminacao;Completa;27/04/2024;12/05/2024;30/04/2024;17801346;lvieira@gmail.com;12/08/2001
+101581;Gabriel Souza;Acesso;Em andamento;27/04/2024;12/05/2024;;17801351;gsouza@gmail.com;31/12/1995
+101582;Beatriz Lima;Retificacao;Completa;27/04/2024;12/05/2024;01/05/2024;17801357;bealima@gmail.com;02/11/1992
+101583;Mateus Castro;Acesso;Completa;28/04/2024;13/05/2024;01/05/2024;17801362;mateuscastro@gmail.com;01/01/1994
+101584;Luana Rocha;Acesso;Completa;29/04/2024;14/05/2024;01/05/2024;17801368;luanarocha@gmail.com;14/10/2003
+101585;Vinicius Barbosa;Oposicao;Em andamento;30/04/2024;15/05/2024;;17801373;vinibarbosa@gmail.com;19/09/2000
