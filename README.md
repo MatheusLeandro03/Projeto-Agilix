@@ -2,7 +2,7 @@
 <hr>
 Para que o código execute de forma correta, além de seguir as informações fornecidas no Capítulo <b>Metodologia</b>, é necessário:
 <p>1- Instalar o interpretador Python (https://www.python.org/downloads/);</p>
-<p>2- Importar as bibliotecas fornecidas na documentação, comandos:</p>
+<p>2- O próprio código importa as bibliotecas, usando os comandos:</p>
 <ol type="a">
   <li> pip install pandas</li>
   <li> pip install cryptography</li>
